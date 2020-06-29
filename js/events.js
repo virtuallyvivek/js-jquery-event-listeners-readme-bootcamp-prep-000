@@ -6,4 +6,8 @@ $(document).ready(function(){
 
 });
 
-function getIt()
+function getIt(){
+  $('img').on('load', function(){
+  //actions you want to happen
+});
+}
