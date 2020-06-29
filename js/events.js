@@ -13,5 +13,7 @@ function getIt(){
 }
 
 function frameIt(){
-  
+  $('image').on('load', function(){
+    image.addclass('tasty')
+  });
 }
