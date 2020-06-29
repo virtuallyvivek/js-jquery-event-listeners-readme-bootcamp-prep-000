@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 
 function getIt(){
-  $('img').on('load', function(){
-  //actions you want to happen
+  $('p').on('click', function(){
+    alert('Hey!')
   });
 }
